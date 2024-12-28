@@ -112,6 +112,52 @@
         </table>
     </div>
 
+    <!-- Fourth Div: Standalone Form -->
+    <div>
+        <h3>Standalone Form</h3>
+        <form action="#" class="minimal-form">
+            <!-- Name Field -->
+            <div class="form-group">
+              <input type="text" id="name" name="name" placeholder="Name" class="form-control">
+            </div>
+          
+            <!-- Phone Field -->
+            <div class="form-group">
+              <input type="text" id="phone" name="phone" placeholder="Phone" class="form-control">
+            </div>
+          
+            <!-- Address Field -->
+            <div class="form-group">
+              <input type="text" id="address" name="address" placeholder="Address" class="form-control">
+            </div>
+          
+                <label for="gender">Gender:</label>
+                <div class="grouped-inputs">
+                    <div><input id="gender-male" name="gender" type="radio"><label for="gender-male">Male</label></div>
+                    <div><input id="gender-female" name="gender" type="radio"><label for="gender-female">Female</label></div>
+                </div>
+            </div>
+            <div class="form-line">
+                <label for="business-category">Business category:</label>
+                <div class="grouped-inputs">
+                    <div><input id="business-category" name="small-scale" type="checkbox"><label for="business-category">Small scale</label></div>
+                    <div><input id="business-category" name="large-scale" type="checkbox"><label for="business-category">Large scale</label></div>
+                </div>
+            </div>
+            <label for="">Customer type:</label>
+            <select name="customer-type" id="customer-type">
+                <option value="regular">Regular</option>
+                <option value="premium">Premium</option>
+            </select>
+      </div>
+      <div class="form-group text-center">
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </div>
+      </form>
+    </div>
+
+</div>
+
     <!-- Third Div: Form inside a table -->
     <div class="mb-4">
         <h3>Form in Table</h3>
@@ -176,52 +222,6 @@
             </tbody>
         </table>
     </div>
-
-    <!-- Fourth Div: Standalone Form -->
-    <div>
-        <h3>Standalone Form</h3>
-        <form action="#" class="minimal-form">
-            <!-- Name Field -->
-            <div class="form-group">
-              <input type="text" id="name" name="name" placeholder="Name" class="form-control">
-            </div>
-          
-            <!-- Phone Field -->
-            <div class="form-group">
-              <input type="text" id="phone" name="phone" placeholder="Phone" class="form-control">
-            </div>
-          
-            <!-- Address Field -->
-            <div class="form-group">
-              <input type="text" id="address" name="address" placeholder="Address" class="form-control">
-            </div>
-          
-                <label for="gender">Gender:</label>
-                <div class="grouped-inputs">
-                    <div><input id="gender-male" name="gender" type="radio"><label for="gender-male">Male</label></div>
-                    <div><input id="gender-female" name="gender" type="radio"><label for="gender-female">Female</label></div>
-                </div>
-            </div>
-            <div class="form-line">
-                <label for="business-category">Business category:</label>
-                <div class="grouped-inputs">
-                    <div><input id="business-category" name="small-scale" type="checkbox"><label for="business-category">Small scale</label></div>
-                    <div><input id="business-category" name="large-scale" type="checkbox"><label for="business-category">Large scale</label></div>
-                </div>
-            </div>
-            <label for="">Customer type:</label>
-            <select name="customer-type" id="customer-type">
-                <option value="regular">Regular</option>
-                <option value="premium">Premium</option>
-            </select>
-      </div>
-      <div class="form-group text-center">
-        <button type="submit" class="btn btn-primary">Submit</button>
-      </div>
-      </form>
-    </div>
-
-</div>
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
